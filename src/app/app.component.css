@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: #7ca7e8;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+@media screen and (max-width:2000px) {
+    body{
+    background-color: #f0f; 
+    }
+}

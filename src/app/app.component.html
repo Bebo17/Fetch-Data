@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div class="container">
+    <h1>Fetch Data in Angular</h1>
+    
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th>Website</th>
+            <th>Company</th>
+        </tr>
+        <tr *ngFor=" let user of users">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.username}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.address.street}}</td>
+            <td>{{user.phone}}</td>
+            <td>{{user.website}}</td>
+            <td>{{user.company.name}}</td>
+        </tr>
+    </table>
+    </div>
+</html>
+
